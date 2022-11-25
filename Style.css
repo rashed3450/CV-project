@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Open Sans', sans-serif;
+}
+div.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Header conatin start*/
+header{
+}
+.profile_image{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+}
+
+.header_bio{
+    float: left;
+    padding: 30px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #11999e;
+}
+
+.header_contain{
+    float: right;
+    padding: 30px;
+}
+
+.header_contain a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header_contain a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+/*header contain End*/
+/*div_claer contain start*/
+.div_clear{
+    clear: both;
+}
+/*div_clear conatain End*/
+/*hr tag start*/
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* hr tag end*/
+/* personal section start*/
+#personal_section{
+
+}
+.personal_contain{
+    margin-bottom: 30px;
+}
+.div_left{
+    float: left;
+    width: 30%;
+}
+
+.div_right{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+/* personal section End*/
+/*common hr tag start*/
+.common_hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*common hr tag end*/
+/*work experiance start*/
+.work_contain1 p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.work_contain2 p{
+    text-align: justify;
+}
+
+/*work experiance end*/
+/*Key Skills Contaion start*/
+.div_right ul{
+    padding-left: 20px;
+}
+/*Key Skills Contaion end*/
+/* Education contain start */
+
+.content1{
+    width: 35%;
+    float: left;
+    margin-right: 200px;
+}
+.content2{
+    width: 35%;
+    float: left;
+}
+
+/*Education contain End*/
+
+.bottom_container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom_container a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.bottom_container p{
+    margin-top: 20px;
+    font-size: 15px;
+}
